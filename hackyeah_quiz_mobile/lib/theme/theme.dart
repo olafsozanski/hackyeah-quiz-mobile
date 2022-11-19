@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/cupertino.dart';
 
 class Spacing {
-  final EdgeInsets screenPadding = const EdgeInsets.all(20);
+  final EdgeInsets screenPadding = const EdgeInsets.all(10);
 
   const Spacing();
 }
@@ -20,8 +21,10 @@ class AppColors {
     900: Color(0xff771d1d),
   });
 
-  final Color textPrimary = Color(0xff161e2e);
-  final Color textSecondary = Color(0xff374151);
+  final Color textPrimary = const Color(0xff161e2e);
+  final Color textSecondary = const Color(0xff374151);
+
+  final Color appBackground = Colors.white;
   AppColors();
 }
 
