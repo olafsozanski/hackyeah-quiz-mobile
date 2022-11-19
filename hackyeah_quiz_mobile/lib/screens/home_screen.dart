@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:hackyeah_quiz_mobile/screens/question_template.dart';
 import 'package:hackyeah_quiz_mobile/theme/theme.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -96,7 +97,14 @@ class HomeScreen extends StatelessWidget {
               ),
             ],
           ),
-          ElevatedButton(onPressed: () {}, child: const Text('Dołącz'))
+          ElevatedButton(
+              onPressed: () {
+                Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                        builder: (context) => const QuestionTemplate()));
+              },
+              child: const Text('Dołącz'))
         ],
       ),
     );

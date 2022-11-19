@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/cupertino.dart';
 
 class Spacing {
   final EdgeInsets screenPadding = const EdgeInsets.all(10);
@@ -38,52 +37,52 @@ class AppTheme {
       fontSize: 28,
       fontWeight: FontWeight.w700,
       color: Color(0xff161e2e),
-      fontFamily: "Poppins",
+      fontFamily: "Inter",
     ),
     headline2: TextStyle(
       fontSize: 26,
       fontWeight: FontWeight.w700,
       color: Color(0xff161e2e),
-      fontFamily: "Poppins",
+      fontFamily: "Inter",
     ),
     headline3: TextStyle(
       fontSize: 22,
       fontWeight: FontWeight.w600,
       color: Color(0xff161e2e),
-      fontFamily: "Poppins",
+      fontFamily: "Inter",
     ),
     headline4: TextStyle(
       fontSize: 20,
       fontWeight: FontWeight.w600,
       color: Color(0xff161e2e),
-      fontFamily: "Poppins",
+      fontFamily: "Inter",
     ),
     headline5: TextStyle(
       fontSize: 18,
       fontWeight: FontWeight.w600,
       color: Color(0xff161e2e),
-      fontFamily: "Poppins",
+      fontFamily: "Inter",
     ),
     headline6: TextStyle(
       fontSize: 16,
       fontWeight: FontWeight.w600,
       color: Color(0xff161e2e),
-      fontFamily: "Poppins",
+      fontFamily: "Inter",
     ),
     bodyText1: TextStyle(
-      fontFamily: "Poppins",
+      fontFamily: "Inter",
       fontSize: 16,
       fontWeight: FontWeight.w600,
       color: Color(0xff374151),
     ),
     bodyText2: TextStyle(
-      fontFamily: "Poppins",
+      fontFamily: "Inter",
       fontSize: 14,
       fontWeight: FontWeight.w500,
       color: Color(0xff374151),
     ),
     button: TextStyle(
-      fontFamily: "Poppins",
+      fontFamily: "Inter",
       fontWeight: FontWeight.w600,
       fontSize: 14,
       color: Color(0xff374151),

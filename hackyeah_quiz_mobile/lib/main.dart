@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
         title: 'Quizy',
         theme: ThemeData(
-          fontFamily: 'Poppins',
+          fontFamily: 'Inter',
           primarySwatch: AppTheme.colors.primary,
           scaffoldBackgroundColor: AppTheme.colors.appBackground,
         ),
