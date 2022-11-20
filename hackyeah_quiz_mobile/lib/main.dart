@@ -15,10 +15,31 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
         title: 'Quizy',
         theme: ThemeData(
-          fontFamily: 'Inter',
-          primarySwatch: AppTheme.colors.primary,
-          scaffoldBackgroundColor: AppTheme.colors.appBackground,
-        ),
+            fontFamily: 'Inter',
+            primarySwatch: AppTheme.colors.primary,
+            scaffoldBackgroundColor: AppTheme.colors.appBackground,
+            appBarTheme: AppBarTheme(
+                elevation: 0,
+                titleTextStyle: AppTheme.typography.headline6
+                    ?.copyWith(fontSize: 20, color: Colors.white)),
+            textTheme: AppTheme.typography,
+            inputDecorationTheme: const InputDecorationTheme(
+              border: OutlineInputBorder(borderRadius: BorderRadius.zero),
+              fillColor: Colors.white,
+            ),
+            outlinedButtonTheme: const OutlinedButtonThemeData(
+                style: ButtonStyle(
+              shape: MaterialStatePropertyAll(RoundedRectangleBorder(
+                borderRadius: BorderRadius.zero,
+              )),
+            )),
+            elevatedButtonTheme: const ElevatedButtonThemeData(
+                style: ButtonStyle(
+              elevation: MaterialStatePropertyAll(0),
+              shape: MaterialStatePropertyAll(RoundedRectangleBorder(
+                borderRadius: BorderRadius.zero,
+              )),
+            ))),
         home: const HomeScreen());
   }
 }

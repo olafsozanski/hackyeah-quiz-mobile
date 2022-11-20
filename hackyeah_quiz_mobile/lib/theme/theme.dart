@@ -7,7 +7,7 @@ class Spacing {
 }
 
 class AppColors {
-  final MaterialColor primary = const MaterialColor(0xffe02424, <int, Color>{
+  final MaterialColor primary = const MaterialColor(0xff9b1c1c, <int, Color>{
     50: Color(0xfffdf2f2),
     100: Color(0xfffde8e8),
     200: Color(0xfffbd5d5),
@@ -23,7 +23,7 @@ class AppColors {
   final Color textPrimary = const Color(0xff161e2e);
   final Color textSecondary = const Color(0xff374151);
 
-  final Color appBackground = Colors.white;
+  final Color appBackground = const Color(0xfff4f5f7);
   AppColors();
 }
 
@@ -71,20 +71,20 @@ class AppTheme {
     ),
     bodyText1: TextStyle(
       fontFamily: "Inter",
-      fontSize: 16,
-      fontWeight: FontWeight.w600,
+      fontSize: 18,
+      fontWeight: FontWeight.w400,
       color: Color(0xff374151),
     ),
     bodyText2: TextStyle(
       fontFamily: "Inter",
       fontSize: 14,
-      fontWeight: FontWeight.w500,
+      fontWeight: FontWeight.w400,
       color: Color(0xff374151),
     ),
     button: TextStyle(
       fontFamily: "Inter",
       fontWeight: FontWeight.w600,
-      fontSize: 14,
+      fontSize: 16,
       color: Color(0xff374151),
     ),
   );
