@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class Spacing {
-  final EdgeInsets screenPadding = const EdgeInsets.all(10);
+  final EdgeInsets screenPadding = const EdgeInsets.all(8);
 
   const Spacing();
 }
